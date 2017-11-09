@@ -119,3 +119,13 @@ section img {
   margin: 15px 20px;
   justify-content: space-around;
 }
+
+.contact {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+  width: 100%;
+}
