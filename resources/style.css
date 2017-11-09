@@ -65,7 +65,7 @@ nav a {
   text-align: center;
 }
 
-#featuredtea {
+#featureditems {
   width: 1000px;
   height: 700px;
   text-align: center;
@@ -77,11 +77,7 @@ nav a {
   justify-content: center;
 }
 
-.fallberryblitz,
-.spicedrumtea,
-.seasonaldonuts,
-.myrtleleavetea,
-.bedfordbizarretea {
+.item {
   padding: 5px;
   display: block;
 }
@@ -99,4 +95,27 @@ section img {
   padding: 5px;
   font-weight: bold;
   text-align: center;
+}
+
+#locations {
+  height: 500px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  padding-top: 70px;
+  width: 1200px;
+}
+
+.featuredlocations {
+  display: flex;
+  justify-content: center;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  height: 250px;
+  margin: 15px 20px;
+  justify-content: space-around;
 }
