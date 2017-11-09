@@ -1,31 +1,44 @@
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
 }
 
 header{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   height: 69px;
   border-bottom: 1px solid seashell;
   position: fixed ;
   z-index: 1;
   width: 100%;
+  background-color: black;
 }
 
-header a {
-  color: seashell;
-  text-decoration: underline;
-  padding: 20px 10px;
-}
 
 header img {
   height: 50px;
   padding-left: 10px;
+}
+/*unclear what the nav formatting  below does */
+ nav {
+   text-align: right;
+   flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+nav a {
+  color: seashell;
+  text-decoration: underline;
 }
 
 .maincontent {
@@ -36,11 +49,7 @@ header img {
   align-items: center;
 }
 
-/*unclear what the nav formatting  below does */
- nav {
-   text-align: right;
-   flex-grow: 1;
- }
+
 
 #mission {
   height: 700px;
@@ -53,5 +62,41 @@ header img {
 
 .missioncontent {
   background-color: black;
+  text-align: center;
+}
+
+#featuredtea {
+  width: 1000px;
+  height: 700px;
+  text-align: center;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fallberryblitz,
+.spicedrumtea,
+.seasonaldonuts,
+.myrtleleavetea,
+.bedfordbizarretea {
+  padding: 5px;
+  display: block;
+}
+
+
+section img {
+  heiht: 200px;
+  width: 300px;
+  margin: 10px;
+  display: block;
+}
+
+.items span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
   text-align: center;
 }
